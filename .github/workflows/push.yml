@@ -1,4 +1,4 @@
-name: pr
+name: push
 
 on:
   push:
@@ -10,3 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: echo "Another step"
