@@ -1,0 +1,12 @@
+name: pr
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Something was pushed to the master branch"
