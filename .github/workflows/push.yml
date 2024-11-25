@@ -8,8 +8,8 @@ on:
 
 
 jobs:
-  run_script:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Another step"
+      - run: ./mvnw clean package

@@ -1,0 +1,7 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>be.olivierhermans</groupId>
+    <artifactId>gh-actions</artifactId>
+    <version>0.1.0</version>
+</project>
