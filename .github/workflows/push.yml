@@ -17,4 +17,4 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           architecture: x64
-      - run: ./mvnw clean package
+      - run: ./mvnw --batch-mode clean verify
