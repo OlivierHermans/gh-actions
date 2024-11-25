@@ -9,4 +9,4 @@ jobs:
   run_script:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Something was pushed to the master branch"
+      - uses: actions/checkout@v4
