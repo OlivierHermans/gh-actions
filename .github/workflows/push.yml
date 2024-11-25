@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
   workflow_dispatch:
 
 
@@ -17,4 +20,4 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           architecture: x64
-      - run: ./mvnw --batch-mode clean verify
+      - run: ./mvnw --batch-mode clean install
